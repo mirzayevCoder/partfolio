@@ -1,0 +1,106 @@
+  /* header */
+.logo{
+  position: relative;
+  top: -10px;
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+  height: 40px;
+}
+  /* header and */
+
+  /* main */
+section{
+  height: auto;
+  background-image: linear-gradient(to right bottom,black, rgb(65, 62, 62), rgb(142, 133, 133), rgb(65, 62, 62), black);
+}
+section .container{
+  height: 100%;
+  width: auto;
+}
+.text-color{
+  color: navajowhite;
+}
+.linia-0{
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  height: 2px;
+  width: 40px;
+  background-color: orange;
+}
+.h2-left{
+  margin-left: 44px;
+  width: 100%;
+  font-size: 190%;
+}
+@media only screen and (max-width: 991px) {
+  .h2-left{
+    font-size: 139%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .h2-left{
+    font-size: 180%;
+  }
+}
+.p-left{
+  margin-left: 44px;
+  width: 85%;
+}
+@media only screen and (max-width: 420px) {
+  .icon {
+    position: relative;
+    left: -5rem;
+  }
+}
+.check{
+  display: block;
+  margin-left: 30%;
+}
+@media only screen and (max-width: 575px) {
+  .inputs {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .check {
+    display: inline-block;
+    margin-left: 15px;
+  }
+}
+.nazad{
+  position: relative;
+  top: -1rem;
+  margin-top: -1.7rem;
+  color: blue;
+  margin-left: 1.2rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 685px) {
+  .nazad {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .nazad {
+    margin-top: -0.7rem;
+  }
+}
+/* contact */
+.contact{
+  position: absolute;
+  top: 0px;
+  left: 8.5rem;
+  display: none;
+}
+/* contact and */
+
+/* footer */
+footer{
+  height: 57px;
+  width: 100%;
+  background-color: rgb(255, 166, 0);
+}
+/* footer and */
